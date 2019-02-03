@@ -70,3 +70,9 @@ db.create_all()
 * 주의: 실행 안됨!
 * User, Post를 models.py로 이동
     * 하지만, flaskblog.py에서 호출하면 순환호출이 발생, 정리가 필요.
+
+**v5.1**
+* flaskblog폴더 추가 (모든 파일/폴더를 옮김 단, venv/__pycache__ 제외 )
+    * import / db 세팅 -> __init__.py 로 이동
+    * route 관련 -> routes.py로 이동
+    * 위쪽 폴더에 run.py 추가
