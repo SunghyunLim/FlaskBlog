@@ -72,7 +72,21 @@ db.create_all()
     * 하지만, flaskblog.py에서 호출하면 순환호출이 발생, 정리가 필요.
 
 **v5.1**
-* flaskblog폴더 추가 (모든 파일/폴더를 옮김 단, venv/__pycache__ 제외 )
-    * import / db 세팅 -> __init__.py 로 이동
+* flaskblog폴더 추가 (모든 파일/폴더를 옮김 단, venv/__ pycache__ 제외 )
+    * import / db 세팅 -> __ init__.py 로 이동
     * route 관련 -> routes.py로 이동
     * 위쪽 폴더에 run.py 추가
+
+
+
+**:) 나를 위한 참고**
+
+tag 추가
+* git add .
+* git commit -m "v0.0"
+* git tag v0.0 -m "v0.0"
+* git push origin v0.0
+
+tag 삭제
+* git tag -d v0.0 -> 로컬에서 삭제
+* git push -d origin v0.0 -> 원격에서 삭제
