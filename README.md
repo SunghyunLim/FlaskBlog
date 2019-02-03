@@ -66,3 +66,7 @@ db.session.commit()
 db.drop_all()
 db.create_all()
 ```
+**v5.0: Package Structure**
+* 주의: 실행 안됨!
+* User, Post를 models.py로 이동
+    * 하지만, flaskblog.py에서 호출하면 순환호출이 발생, 정리가 필요.
