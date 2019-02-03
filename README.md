@@ -6,3 +6,5 @@ Tag 설명
 * venv에서 pip install flask 한 뒤 실행
 * python3 flaskblog.py
 
+**V2.0**
+* render_template 추가(templates 폴더에 html 추가)
