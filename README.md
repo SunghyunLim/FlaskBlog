@@ -8,3 +8,7 @@ Tag 설명
 
 **V2.0**
 * render_template 추가(templates 폴더에 html 추가)
+
+**v2.1**
+* tempate에 파라메터 추가
+* if ~ endif / for ~ endfor 추가
