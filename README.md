@@ -6,6 +6,7 @@ Tag 설명
 * venv에서 pip install flask 한 뒤 실행
 * python3 flaskblog.py
 
+<<<<<<< HEAD
 **V2.0: Tempates**
 * render_template 추가(templates 폴더에 html 추가)
 
@@ -70,3 +71,7 @@ db.create_all()
 * 주의: 실행 안됨!
 * User, Post를 models.py로 이동
     * 하지만, flaskblog.py에서 호출하면 순환호출이 발생, 정리가 필요.
+=======
+**V2.0**
+* render_template 추가(templates 폴더에 html 추가)
+>>>>>>> Readme에 2.0 내용 추가
