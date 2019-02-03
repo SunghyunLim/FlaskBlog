@@ -90,3 +90,6 @@ tag 추가
 tag 삭제
 * git tag -d v0.0 -> 로컬에서 삭제
 * git push -d origin v0.0 -> 원격에서 삭제
+
+이 프로젝트만 계정 세팅
+* https://help.github.com/articles/setting-your-username-in-git/
