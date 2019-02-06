@@ -104,6 +104,16 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
   * password 체크
   * 정상 로그인이 되면 -> remember 여부를 포함해서 로그인 처리
 
+**v6.3**
+* routes.py에 로그인 한 뒤에는 login, Register를 클릭하면 메인 페이지로 이동하도록 구성
+  * logout 추가
+* current_user.is_authenticated 추가(대상: routes.py, layout.html)
+* account.html 추가
+  * routes.py에도 추가
+  * layout.html에 추가
+* login하지 않아도 account에 접근 가능한 문제.
+
+------------
 
 **:) 나를 위한 참고**
 
@@ -122,6 +132,8 @@ tag 삭제
 
 이 프로젝트만 계정 세팅
 * https://help.github.com/articles/setting-your-username-in-git/
+
+-----
 
 **사전 준비사항**
 
