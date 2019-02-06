@@ -93,6 +93,17 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 * 위내용으로 id, email 중복입력시 db 오류 발생(unique 에러)
 * id, email 중복 체크(forms.py의 RegistrationForm/validate_field에 추가)
 
+**v6.2: flask-login을 통한 확장**
+* flask-login 라이브러리 사용 <code>pip install flask-login</code>
+* __init __.py 에 LoginManager 추가
+* models.py에 login_manager.user_loader 추가 : User를 가져오는 기준 방법 추가, User의 상위 Class 추가(UserMixin)
+  * 참고: USerMixin
+    * is_authenticated등의 함수를 기본적으로 제공함
+* routes.py에 login route 변경
+  * email 값으로 user 정보를 가져와
+  * password 체크
+  * 정상 로그인이 되면 -> remember 여부를 포함해서 로그인 처리
+
 
 **:) 나를 위한 참고**
 
