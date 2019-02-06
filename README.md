@@ -125,6 +125,12 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 * UpdateAccountForm 추가(forms.py, routes.py)
 * Account Info 추가(account.html, routes.py)
 
+**v7.2**
+* account 페이지에 이미지 업로드 추가(account.html, routes.py)
+* 업로드 이미지 축소(<code>pip install Pillow</code>)
+
+
+
 ------------
 
 **:) 나를 위한 참고**
