@@ -129,7 +129,12 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 * account 페이지에 이미지 업로드 추가(account.html, routes.py)
 * 업로드 이미지 축소(<code>pip install Pillow</code>)
 
-
+**v8.0: Create, Update, and Delete Posts**
+* post 생성 추가
+  * routes.py : route 추가
+  * create_post.html : 폼 추가
+  * forms.py : PostForm 클래스 추가 
+  * layout.html : New Post 링크 추가
 
 ------------
 
