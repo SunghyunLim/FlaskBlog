@@ -118,6 +118,9 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 * login페이지, 메시지 정보 추가(__init __.py)
 * login_required 페이지에서 권한이 없어 login페이지로 넘어갔을 때 처리(next_page)
 
+**v7.0: User Account and Profile Picture**
+* account페이지에 이미지 추가
+
 
 ------------
 
