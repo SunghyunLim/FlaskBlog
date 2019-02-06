@@ -77,7 +77,7 @@ db.create_all()
     * route 관련 -> routes.py로 이동
     * 위쪽 폴더에 run.py 추가
 
-**v6.0**
+**v6.0: User Authentication**
 * password hashing function 라이브러리 추가 <code>pip install flask-bcrypt</code>
 * 예시
 <pre>
@@ -87,7 +87,12 @@ hashed_pw = bcrypt.generate_password_hash('passwd')
 bcrypt.check_password_hash(hashed_pw, 'passwd')
 </pre>
 * 위 내용을 __init __.py에 추가함
-* 저장이 잘 되었는지 확인.()
+* 저장이 잘 되었는지 확인.(sqllite에서 확인)
+
+**v6.1**
+* 위내용으로 id, email 중복입력시 db 오류 발생(unique 에러)
+* id, email 중복 체크(forms.py의 RegistrationForm/validate_field에 추가)
+
 
 **:) 나를 위한 참고**
 
