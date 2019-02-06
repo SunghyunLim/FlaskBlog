@@ -121,6 +121,9 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 **v7.0: User Account and Profile Picture**
 * account페이지에 이미지 추가
 
+**v7.1**
+* UpdateAccountForm 추가(forms.py, routes.py)
+* Account Info 추가(account.html, routes.py)
 
 ------------
 
