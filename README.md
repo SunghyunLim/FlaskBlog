@@ -113,6 +113,12 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
   * layout.html에 추가
 * login하지 않아도 account에 접근 가능한 문제.
 
+**v6.4**
+* login_required 추가(account)
+* login페이지, 메시지 정보 추가(__init __.py)
+* login_required 페이지에서 권한이 없어 login페이지로 넘어갔을 때 처리(next_page)
+
+
 ------------
 
 **:) 나를 위한 참고**
