@@ -3,7 +3,7 @@ Tag 설명
 
 **V1.0: Getting Started**
 * flaskblog.py 생성 (플라스크 페이지에 있는 그 내용 그대로)
-* venv에서 pip install flask 한 뒤 실행
+* <code>pip install flask</code> 한 뒤 실행
 * python3 flaskblog.py
 
 **V2.0: Tempates**
@@ -18,7 +18,7 @@ Tag 설명
 * css 추가(static 폴더에 추가)
 
 **v3.0: Forms and User Input**
-* flask-wtf 추가(pip install flask-wtf)
+* flask-wtf 추가(<code>pip install flask-wtf</code>)
 * forms.py 추가(RegistrationForm, LoginForm 추가)
     * validation 추가
 * Registration / Login과 관련된 html, route 추가
@@ -29,7 +29,7 @@ Tag 설명
 
 **v4.0: Database with Flask-Alchemy**
 * 주의: 실행 안됨!
-* flask-sqlalchemy추가 (pip install flask-sqlalchemy)
+* flask-sqlalchemy추가 (<code>pip install flask-sqlalchemy</code>)
 * sqlite browser : https://sqlitebrowser.org/dl/
 * flaskblog.py에
     * SQLAlchemy 추가
@@ -77,7 +77,17 @@ db.create_all()
     * route 관련 -> routes.py로 이동
     * 위쪽 폴더에 run.py 추가
 
-
+**v6.0**
+* password hashing function 라이브러리 추가 <code>pip install flask-bcrypt</code>
+* 예시
+<pre>
+from flask_bcrypt import Bcrypt
+bcrypt=Bcrypt()
+hashed_pw = bcrypt.generate_password_hash('passwd')
+bcrypt.check_password_hash(hashed_pw, 'passwd')
+</pre>
+* 위 내용을 __init __.py에 추가함
+* 저장이 잘 되었는지 확인.()
 
 **:) 나를 위한 참고**
 
@@ -96,3 +106,33 @@ tag 삭제
 
 이 프로젝트만 계정 세팅
 * https://help.github.com/articles/setting-your-username-in-git/
+
+**사전 준비사항**
+
+1. Python3 설치 : https://www.python.org/downloads/
+2. Bash shell + git 클라이언트 : https://gitforwindows.org/
+3. CMD 확장 : http://cmder.net/
+4. 개발 디렉토리 + 가상환경 구성(설치 프로그램간 충돌 방지)
+<pre>
+~/DEV
+❯ mkdir ducksung
+
+~/DEV
+❯ cd ducksung
+
+~/DEV/ducksung
+❯ mkdir flask-2019
+
+~/DEV/ducksung
+❯ cd flask-2019
+
+~/DEV/ducksung/flask-2019
+❯ python3 -m venv venv
+
+source venv\bin\activate #mac
+venv\Script\activate #windows
+</pre>
+
+5. VSCode 설치 + python 플러그인 설치 : https://code.visualstudio.com/
+
+6. DB Browser for SQLite : https://sqlitebrowser.org/
