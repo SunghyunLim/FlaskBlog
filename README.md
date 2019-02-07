@@ -140,6 +140,10 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 * DB에 저장
 * 저장한 post 가져오기.
 
+**v8.2**
+* 이름, 날짜 가독성 향상/ 이밎 추가(home.html)
+
+
 ------------
 
 **:) 나를 위한 참고**
