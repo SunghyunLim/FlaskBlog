@@ -136,6 +136,10 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
   * forms.py : PostForm 클래스 추가 
   * layout.html : New Post 링크 추가
 
+**v8.1**
+* DB에 저장
+* 저장한 post 가져오기.
+
 ------------
 
 **:) 나를 위한 참고**
