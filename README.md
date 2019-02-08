@@ -151,6 +151,13 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 * update post 추가
   * /post/<int:post_id>/update (routes.py)
 
+**v8.4**
+* (post.html)update 버튼 추가
+* (post.html)delete 버튼/modal 기능 추가
+  * 이 내용은 소스 그대로 긁어다가 붙이기
+* rotes.py에 delete 추가
+
+
 ------------
 
 **:) 나를 위한 참고**
