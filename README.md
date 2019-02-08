@@ -143,6 +143,13 @@ bcrypt.check_password_hash(hashed_pw, 'passwd')
 **v8.2**
 * 이름, 날짜 가독성 향상/ 이미지 추가(home.html)
 
+**v8.3**
+* 상세 페이지 추가
+  * /post/<int:post_id> (routes.py)
+  * post.html 
+  * home.html에 링크 
+* update post 추가
+  * /post/<int:post_id>/update (routes.py)
 
 ------------
 
@@ -191,7 +198,5 @@ tag 삭제
 source venv\bin\activate #mac
 venv\Script\activate #windows
 </pre>
-
 5. VSCode 설치 + python 플러그인 설치 : https://code.visualstudio.com/
-
 6. DB Browser for SQLite : https://sqlitebrowser.org/
