@@ -173,7 +173,7 @@ tag 삭제
 * git push -d origin v0.0 -> 원격에서 삭제
 
 특정한 tag만 가져오기
-* git checkout tags/v0.0
+* git checkout v0.0
 
 이 프로젝트만 계정 세팅
 * https://help.github.com/articles/setting-your-username-in-git/
