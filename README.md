@@ -13,11 +13,13 @@ Tag 설명
 * tempate에 파라메터 추가
 * if ~ endif / for ~ endfor 추가
 
-**v2.2**
-* template extends 추가(layout.html)
-* css 추가(static 폴더에 추가)
+--------------
+css 제거한 내용 추가
 
-**v3.0**
+**v2.2-css**
+* template extends 추가(layout.html)
+
+**v3.0-css**
 * flask-wtf 추가(pip install flask-wtf)
 * forms.py 추가(RegistrationForm, LoginForm 추가)
     * validation 추가
@@ -25,4 +27,3 @@ Tag 설명
 * app.config['SECRET_KEY'] 추가 
     * import secrets
     * secrets.token_hex(16) -> 이 값으로 넣음
-* message 알람 추가
