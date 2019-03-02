@@ -13,5 +13,5 @@ Tag 설명
 * tempate에 파라메터 추가
 * if ~ endif / for ~ endfor 추가
 
-**v2.2-c**
+**v2.2-css**
 * template extends 추가(layout.html)
