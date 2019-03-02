@@ -13,6 +13,5 @@ Tag 설명
 * tempate에 파라메터 추가
 * if ~ endif / for ~ endfor 추가
 
-**v2.2**
+**v2.2-c**
 * template extends 추가(layout.html)
-* css 추가(static 폴더에 추가)
